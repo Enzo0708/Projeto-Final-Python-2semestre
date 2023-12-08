@@ -215,3 +215,4 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Erro ao editar salário:', error.message);
         }
     }
+    
