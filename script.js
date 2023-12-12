@@ -74,6 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
             legend: {
               display: true,
               position: 'bottom',
+              labels: {
+                color: '#fff', // Define a cor do texto da legenda como brancoa
+              },
             },
           },
         },
@@ -266,14 +269,6 @@ async function mostrarGastosMensais() {
 
 function refreshPage() {
   location.reload();
-}
-
-function expandBox(element) {
-  element.style.transform = "scale(1.05)";
-}
-
-function shrinkBox(element) {
-  element.style.transform = "scale(1)";
 }
 
 // Adiciona um ouvinte de evento ao botão de gastos mensais no modal principal
