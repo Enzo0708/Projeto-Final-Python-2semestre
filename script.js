@@ -264,5 +264,9 @@ async function mostrarGastosMensais() {
   }
 }
 
+function refreshPage() {
+  location.reload();
+}
+
 // Adiciona um ouvinte de evento ao botão de gastos mensais no modal principal
 document.querySelector("#btn-gastos-mensais").addEventListener("click", mostrarGastosMensais);
