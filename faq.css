@@ -5,14 +5,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(180deg, rgba(35,71,103,1) 10%, rgba(8,121,181,1) 63%, rgba(21,129,196,1) 100%);
+    background: linear-gradient(180deg, rgba(35, 71, 103, 1) 10%, rgba(8, 121, 181, 1) 63%, rgba(21, 129, 196, 1) 100%);
 }
-
+  
 .faq-container {
     max-width: 500px;
     width: 100%;
-    padding: 25px;
+    padding: 30px;
     background: linear-gradient(#13293d, #006494, #247ba0, #1b98e0);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -20,7 +19,7 @@ body {
 }
 
 .faq-item {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
