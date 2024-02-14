@@ -17,6 +17,9 @@
     
                                                                                                                                                                                             
 }
+.menu-nav{
+    padding: 1rem;
+}
 .lista{
     display: flex;  
     align-items: center;    
